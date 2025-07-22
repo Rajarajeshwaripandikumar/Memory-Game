@@ -1,4 +1,3 @@
-# Memory-Game
 
 # Match the Term with Its Definition - Memory Game
 
@@ -18,7 +17,7 @@ This is a twist on the classic Memory Game where instead of matching identical c
 - *JavaScript (DOM Manipulation)*
 
 ## 🚀 How to Run Locally
-1. Download all files (index.html, style.css, script.js).
+1. Download all files (index.html, backend.css, javascript.js).
 2. Open index.html in your browser.
 3. Click "Restart Game" to shuffle & play again.
 
