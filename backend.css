@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: rowdies, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg,hsl(153, 56.30%, 40.40%),rgba(250, 242, 241, 0.99));
+  font-family: 'rowdies', sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background: linear-gradient(135deg,hsl(33, 96.40%, 44.10%),rgb(241, 250, 247));
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(135deg,rgb(206, 105, 33),rgb(206, 105, 33));
+  transform: translateY(-2px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card { 
+    background: linear-gradient(135deg,hsl(203, 71.30%, 45.10%),rgb(241, 250, 247));
+  color: white;
+  border-radius: 8px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.5s;
+  word-wrap: break-word;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.card.flipped {
+  background:rgba(255, 255, 255, 1);
+  color: #333;
+  transform: rotateY(360deg);
+  border: 2px solid #4a90e2;
+}
+
+.card.matched {
+  background: #28a745;
+  color: white;
+  transform: scale(1.05);
+  cursor: default;
+  border: none;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 500px) {
+  .card {
+    font-size: 14px;
+    height: 100px;
+  }
+}
