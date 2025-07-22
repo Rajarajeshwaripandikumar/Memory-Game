@@ -28,3 +28,7 @@ This is a twist on the classic Memory Game where instead of matching identical c
 
 ## 📞 Contact
 For customizations or questions, feel free to ask!
+
+## 🎮 Game Preview
+
+![Memory Game Screenshot](Images/screenshot-Start.png)
