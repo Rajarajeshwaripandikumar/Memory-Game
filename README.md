@@ -31,4 +31,4 @@ For customizations or questions, feel free to ask!
 
 ## 🎮 Game Preview
 
-![Memory Game Screenshot](Images/screenshot-Start.png)
+(Images/Screenshot-Start.png)
